@@ -745,8 +745,8 @@ static void log_init(void)
  */
 static void power_manage(void)
 {
-    ret_code_t err_code = sd_app_evt_wait();
-    APP_ERROR_CHECK(err_code);
+    //ret_code_t err_code = sd_app_evt_wait();
+    //APP_ERROR_CHECK(err_code);
 }
 
 
@@ -1031,7 +1031,7 @@ int main(void)
     NRF_LOG_INFO("Configuring step counter");
     sensor_config();
 
-    NRF_LOG_INFO("Initialization succesful");
+    NRF_LOG_INFO("Initialization succesfull");
     application_timers_start();
 
     advertising_start(erase_bonds);
