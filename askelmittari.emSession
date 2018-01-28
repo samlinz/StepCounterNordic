@@ -1,7 +1,12 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
- <Bookmarks/>
- <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <Bookmarks>
+  <BookmarkItem objectName="" line="536" column="4" path="C:/Users/lindq/Dropbox/Yliopisto/2017_2018/Embedded IoT Programming/Projekti/askelmittari/koodit/main.c" number="1" extra="//APP_ERROR_CHECK(err_code);" color="5"/>
+ </Bookmarks>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="110" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="koodit/step_counter_service.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
@@ -28,6 +33,7 @@
   <ProjectSessionItem path="EmbeddedIoT;Askelmittari;nRF_BLE"/>
   <ProjectSessionItem path="EmbeddedIoT;Askelmittari;nRF_Drivers"/>
   <ProjectSessionItem path="EmbeddedIoT;Askelmittari;nRF_Libraries"/>
+  <ProjectSessionItem path="EmbeddedIoT;Askelmittari;nRF_Log"/>
   <ProjectSessionItem path="EmbeddedIoT;Askelmittari;Services"/>
  </Project>
  <Register1>
@@ -58,13 +64,8 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="60" y="979" useTextEdit="1" useBinaryEdit="0" left="0" path="koodit/main.c" debugPath="koodit/main.c" selected="1" top="968" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="355" useTextEdit="1" useBinaryEdit="0" left="0" path="C:/Nordic/SDK/components/drivers_nrf/spi_master/nrf_drv_spi.c" debugPath="C:/Nordic/SDK/components/drivers_nrf/spi_master/nrf_drv_spi.c" selected="0" top="330" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1458" useTextEdit="1" useBinaryEdit="0" left="0" path="BMI160/bmi160_defs.h" debugPath="BMI160/bmi160_defs.h" selected="0" top="1404" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="C:/Nordic/SDK/components/drivers_nrf/delay/nrf_delay.h" debugPath="C:/Nordic/SDK/components/drivers_nrf/delay/nrf_delay.h" selected="0" top="27" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="203" useTextEdit="1" useBinaryEdit="0" left="0" path="BMI160/bmi160.h" debugPath="BMI160/bmi160.h" selected="0" top="176" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="612" useTextEdit="1" useBinaryEdit="0" left="0" path="C:/Nordic/SDK/components/softdevice/s132/headers/nrf_soc.h" debugPath="C:/Nordic/SDK/components/softdevice/s132/headers/nrf_soc.h" selected="0" top="585" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="96" useTextEdit="1" useBinaryEdit="0" left="0" path="C:/Nordic/SDK/components/libraries/util/app_error_weak.c" debugPath="C:/Nordic/SDK/components/libraries/util/app_error_weak.c" selected="0" top="69" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="427" useTextEdit="1" useBinaryEdit="0" left="0" path="koodit/main.c" debugPath="koodit/main.c" selected="1" top="419" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="65" y="83" useTextEdit="1" useBinaryEdit="0" left="0" path="koodit/step_counter_service.c" debugPath="koodit/step_counter_service.c" selected="0" top="90" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="Askelmittari" fileDialogDefaultFilter="" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="C:/Nordic/SDK/components/drivers_nrf/delay" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <ARMCrossStudioWindow activeProject="Askelmittari" fileDialogDefaultFilter="" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/lindq/Dropbox/Yliopisto/2017_2018/Embedded IoT Programming/Projekti/askelmittari/koodit" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

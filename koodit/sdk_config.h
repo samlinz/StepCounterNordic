@@ -233,7 +233,7 @@
  
 
 #ifndef BLE_HTS_ENABLED
-#define BLE_HTS_ENABLED 0
+#define BLE_HTS_ENABLED 1
 #endif
 
 // <q> BLE_IAS_C_ENABLED  - ble_ias_c - Immediate Alert Service Client
@@ -3180,7 +3180,7 @@
 // <4=> Debug 
 
 #ifndef NRF_LOG_DEFAULT_LEVEL
-#define NRF_LOG_DEFAULT_LEVEL 3
+#define NRF_LOG_DEFAULT_LEVEL 4
 #endif
 
 // <q> NRF_LOG_DEFERRED  - Enable deffered logger.

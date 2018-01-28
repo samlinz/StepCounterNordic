@@ -84,6 +84,7 @@
     <folder Name="Application">
       <file file_name="./koodit/main.c" />
       <file file_name="./koodit/sdk_config.h" />
+      <file file_name="koodit/step_counter_service.c" />
     </folder>
     <folder Name="nRF_Segger_RTT">
       <file file_name="$(NORDIC_ROOT)/external/segger_rtt/SEGGER_RTT.c" />
@@ -125,6 +126,7 @@
       debug_register_definition_file="$(NORDIC_ROOT)/svd/nrf52.svd" />
     <folder Name="Services">
       <file file_name="C:/Nordic/SDK/components/ble/ble_services/ble_bas/ble_bas.c" />
+      <file file_name="C:/Nordic/SDK/components/ble/ble_services/ble_hts/ble_hts.c" />
     </folder>
     <folder Name="BMI">
       <file file_name="bmi160/bmi160.c" />
